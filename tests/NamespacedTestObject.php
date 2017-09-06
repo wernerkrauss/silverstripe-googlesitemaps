@@ -12,7 +12,7 @@ use SilverStripe\ORM\DataObject;
  */
 class Test_DataObject extends DataObject implements TestOnly
 {
-    public static $db = array(
+    private static $db = array(
         'Priority' => 'Varchar(10)'
     );
 
